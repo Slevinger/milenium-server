@@ -13,3 +13,5 @@ mongoose.connection.on("open", err => {
   if (err) console.log("Error connecting to our mongo database");
   console.log("Connected to mongo database successfully");
 });
+
+module.exports = mongoose;
